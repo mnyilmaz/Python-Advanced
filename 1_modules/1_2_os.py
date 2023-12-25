@@ -13,7 +13,7 @@ print(result)
 print(blank)
 
 # Finding out which directory we're using at the moment
-cwd = os.getcwd() # D:\_codes\btk_akademi\_sıfırdan_ileri_seviye_python\2_advanced_python - gives the loaction of folder
+cwd = os.getcwd() # "\2_advanced_python" - gives the loaction of folder
 print(cwd)
 print(blank)
 
@@ -34,7 +34,7 @@ print(blank)
 ##############################################################################################################
 
 # Changing Directory
-# os.chdir("C:\\") # makes directory as c
+# os.chdir("M:\\") # makes directory as c
 # os.chdir("..") works as cd ..
 # os.chdir("../..") works as double cd .. 
 
@@ -76,8 +76,8 @@ path = os.path.abspath("1_1_datetime.py")
 print(path)
 print(blank)
 
-# dirpath = os.path.dirname("D:/_codes/btk_akademi/_sıfırdan_ileri_seviye_python/2_advanced_python/1_2_os.py")
-dirpath = os.path.dirname("C:/Users/merve/Desktop/uncharted.jpg")
+# dirpath = os.path.dirname("/2_advanced_python/1_2_os.py")
+dirpath = os.path.dirname("M://uncharted.jpg")
 print(dirpath)
 print(blank)
 
@@ -87,19 +87,19 @@ print(actual)
 print(blank)
 
 # Exists
-exists = os.path.exists("C:/Users/mny")
+exists = os.path.exists("M://")
 print(f"File existence situation is {exists}")
 print(blank)
 
 # Is file or directory
-is_dir = os.path.isdir("C:/Users/mny")
+is_dir = os.path.isdir("M://")
 print(is_dir)
-is_file = os.path.isdir("C:/Users/mny")
+is_file = os.path.isdir("M://")
 print(is_file)
 print(blank)
 
 # Join and Split
-join = os.path.join("C:/Users/merve/Desktop/new", "new2")
+join = os.path.join("M://new", "new2")
 print(join)
 split = os.path.splitext("1_1_datetime.py")
 print(split)
