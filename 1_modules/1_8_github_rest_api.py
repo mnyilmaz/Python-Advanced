@@ -4,13 +4,12 @@
 # python 1_8_github_rest_api.py
 blank = "----------------------"
 
-# test_token: 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
 import requests, json
 
 class Github:
     def __init__(self):
         self.api_url = "https://api.github.com"
-        self.token = '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'
+        self.token = ''
     
     def get_user(self, username):
         response = requests.get(self.api_url + '/users/' + username)
