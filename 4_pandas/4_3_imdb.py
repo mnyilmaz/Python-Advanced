@@ -84,7 +84,3 @@ print(f"M12 - Only the movies that their release date is between 2014-2015:\n {d
 # Milestone 13: Get movies that their review numbers is over 100.000 or rating point is between 8-9
 review = file[(file["Votes"] >= 100000) | ((file["Rating"] >= 8) & (file["Rating"] <= 9))][["Title", "Rating", "Votes"]]
 print(f"M13 - Review number is over 100.000 or rating point is between 8-9:\n {review}\n{blank}") 
-
-
-
-
