@@ -40,13 +40,3 @@ print(f"Down of the NaN: \n{idntfy}\n{blank}")
 # Filling NaN value spaces
 fill = df.fillna(value ="no input")
 print(f"Rise of the NaN: \n{fill}\n{blank}") 
-
-
-
-
-
-
-
-
-
-
