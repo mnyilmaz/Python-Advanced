@@ -87,14 +87,3 @@ print(f"First five rows:\n {rows_h}\n{blank}")
 print(f"Last five rows:\n {rows_t}\n{blank}") 
 print(f"First five rows only column 1:\n {column_1}\n{blank}") 
 print(f"Criteria greater than 33:\n {criteria}\n{blank}") 
-
-
-
-
-
-
-
-
-
-
-
