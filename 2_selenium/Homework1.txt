@@ -1,0 +1,48 @@
+Research Data Types in Python, write descriptions for each data type in your own words.
+
+Numeric Types:
+------------------------------------
+int: Represents integers, e.g., 1, -5, 100.
+float: Represents floating-point numbers, e.g., 3.14, -2.5, 1.0.
+
+Sequence Types:
+------------------------------------
+str: Represents strings of characters, e.g., "hello", 'world'.
+list: Represents an ordered collection of items, e.g., [1, 2, 3], ['apple', 'banana'].
+tuple: Represents an ordered, immutable collection of items, e.g., (1, 2, 3), ('a', 'b', 'c').
+
+Mapping Type:
+------------------------------------
+dict: Represents a collection of key-value pairs, e.g., {'name': 'John', 'age': 25}.
+Set Types:
+set: Represents an unordered collection of unique elements, e.g., {1, 2, 3}, {'apple', 'banana'}.
+frozenset: Represents an immutable version of set, e.g., frozenset({1, 2, 3}).
+
+Boolean Type:
+------------------------------------
+bool: Represents the truth values True or False.
+
+None Type:
+------------------------------------
+None: Represents the absence of a value or a null value.
+
+##############################################################################################################
+
+Identify which data types have been used in this website of this course.
+
+# String on buttons:
+string = "Bitir ve devam et"
+# Completion percentage
+int = 9 
+
+##############################################################################################################
+
+Give examples of the parts of the site where you think conditional blocks are used and code these examples in Python.
+
+comment = input("Please enter your comment")
+button.click()
+
+if len(comment) == 0:
+  print("Please add text to the comment")
+else:
+  share()
