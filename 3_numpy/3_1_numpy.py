@@ -98,17 +98,3 @@ result_29 = random_1 % 2 == 0 # controls every variables condition about %2 == 0
 
 
 print(f"{result_27}\n{blank}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
