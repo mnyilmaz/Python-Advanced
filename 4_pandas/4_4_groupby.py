@@ -56,12 +56,3 @@ print(f"Team Age Mean: \n{team_age_mean}\n{blank}")
 print(f"Homeland Age Mean: \n{homeland_age_mean}\n{blank}")
 print(f"Homeland Driver Count: \n{homeland_driver_count}\n{blank}") 
 print(f"Average per Team: \n{ag}\n{blank}") 
-
-
-
-
-
-
-
-
-
