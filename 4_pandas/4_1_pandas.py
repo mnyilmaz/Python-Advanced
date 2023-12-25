@@ -110,21 +110,3 @@ df_1 = pd.DataFrame(dict_list, index=[1,2,3])
 
 print(f"DataFrame:\n {df}\n{blank}")
 print(f"DataFrame:\n {df_1}\n{blank}") 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
