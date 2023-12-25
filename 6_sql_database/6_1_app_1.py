@@ -10,8 +10,8 @@ import mysql.connector
 # Connection to the mysql database
 # mydb = mysql.connector.connect(
 #     host = "localhost", #192.1.1.1 server adress must display in here
-#     user = "root",
-#     password = "allard",
+#     user = "user",
+#     password = "password",
 #     database = "newdb"
 # ) 
 
@@ -44,8 +44,8 @@ import mysql.connector
 def insert_Manager(id, team_points, name, surname, team):
     connection = mysql.connector.connect(
         host = "localhost", 
-        user = "root",
-        password = "allard",
+        user = "user",
+        password = "password",
         database = "managerdb"
     ) 
     cursor = connection.cursor()
@@ -72,8 +72,8 @@ def insert_Manager(id, team_points, name, surname, team):
 def insert_Managers(list):
     connection = mysql.connector.connect(
         host = "localhost", 
-        user = "root",
-        password = "allard",
+        user = "user",
+        password = "password",
         database = "managerdb"
     ) 
     cursor = connection.cursor()
