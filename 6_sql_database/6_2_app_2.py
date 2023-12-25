@@ -86,8 +86,8 @@ def get_Delete():
 # Database connection
 connection = mysql.connector.connect(
     host = "localhost",
-    user = "root",
-    password = "allard",
+    user = "user",
+    password = "password",
     database = "driversdb"
     )
 
