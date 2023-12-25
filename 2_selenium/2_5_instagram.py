@@ -39,7 +39,7 @@ class Instagram:
 
 
     def get_followers(self):
-        self.browser.get("https://www.instagram.com/fsmaysec/followers/")
+        self.browser.get("https://www.instagram.com/example/followers/")
         
         # Followers button click
         self.browser.find_element(By.XPATH, "//*[@id='mount_0_0_MX']/div/div/div/div[1]/div/div/div/div[1]/div[1]/section/main/div/ul/li[2]/a/div").click()
